@@ -23,7 +23,7 @@ public class CreateTranscriptionRequest {
 
 
     /**
-     * Just test.
+     * Just test 0728.
      */
     String test;
 
