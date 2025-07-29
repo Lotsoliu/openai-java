@@ -21,6 +21,12 @@ public class CreateTranscriptionRequest {
     @NonNull
     String model;
 
+
+    /**
+     * Just test 0728.
+     */
+    String test;
+
     /**
      * An optional text to guide the model's style or continue a previous audio segment. The prompt should match the audio language.
      */
