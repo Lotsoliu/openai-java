@@ -19,7 +19,7 @@ public class AuthenticationInterceptor implements Interceptor {
      *
      * @param token the OpenAI API token, must not be null or blank
      */
-    public AuthenticationInterceptor(String token) {
+    AuthenticationInterceptor(String token) {
         Objects.requireNonNull(token, "OpenAI token required");
         if (token.trim().isEmpty()) {
             throw new IllegalArgumentException("OpenAI token must not be blank");
